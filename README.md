@@ -1,2 +1,3 @@
-# go-programmeerimiskeel
+# go programmeerimiskeel
+
 Näiteid alustuseks
