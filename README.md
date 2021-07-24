@@ -1,0 +1,2 @@
+# go-programmeerimiskeel
+Näiteid alustuseks
