@@ -22,6 +22,7 @@ func main() {
 	fmt.Scan(&str)
 
 	str = strings.ToLower(str) // Conver to lower case
+	fmt.Printf(str + "\n")
 
 	i := strings.HasPrefix(str, "i") // True or False
 	n := strings.HasSuffix(str, "n") // True or False
