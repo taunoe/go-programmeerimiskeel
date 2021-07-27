@@ -15,6 +15,7 @@
 12. [Funktsioonid](./2-func.md)
 13. [Classes](./2-classes.md)
 14. [Encapsulation](./2-encapsulation.md)
+15. [Interfaces](./2-interfaces.md)
 
 
 ## Koodinäited
@@ -27,6 +28,7 @@
 * [read.go](src/0-read/read.go) Reads names from file. Creates new struct and stores in on slice. And prints slice.
 * [bubble_sort.go](src/1-sort/bubble_sort.go)
 * [activity.go](src/1-activity/activity.go) Functions as return value
+* [animal.go](src/1-animal/animal.go) Pointer receivers
 
 ___
 

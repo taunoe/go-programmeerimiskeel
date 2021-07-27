@@ -21,7 +21,7 @@ x = p1.addr // read
 p2 := new(Person)
 
 // Initializing: struct literal
-p3 := Person(name:"joe", addr:"a st.", phone:"123")
+p3 := Person{name:"joe", addr:"a st.", phone:"123"}
 
 ```
 
