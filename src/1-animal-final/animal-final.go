@@ -73,6 +73,12 @@ func main() {
 	var mapAnimal map[string]Animal
 	mapAnimal = make(map[string]Animal)
 
+	fmt.Printf("User creates animal and/or gets info about them.\n")
+	fmt.Printf("Aniamals typs are: cow, bird and snake. Name can be anyting.\n")
+	fmt.Printf("Requested info are: eat, move or speak.\n")
+	fmt.Printf("Command: newanimal name type\n")
+	fmt.Printf("Command: query name info \n ")
+
 	for {
 		var input string
 		fmt.Printf("> ")

@@ -16,7 +16,7 @@
 13. [Classes](./2-classes.md)
 14. [Encapsulation](./2-encapsulation.md)
 15. [Interfaces](./2-interfaces.md)
-
+16. [Concurrency](./3-concurrency.md)
 
 ## Koodinäited
 
@@ -29,6 +29,9 @@
 * [bubble_sort.go](src/1-sort/bubble_sort.go)
 * [activity.go](src/1-activity/activity.go) Functions as return value
 * [animal.go](src/1-animal/animal.go) Pointer receivers
+* [animal-final.go](src/1-animal-final/animal-final.go)
+* [race.go](src/2-race/race.go) Race condition, goroutine
+* [goroutine.go](src/2-goroutine/goroutine.go) sync.WaitGroup, goroutine
 
 ___
 
