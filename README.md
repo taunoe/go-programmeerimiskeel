@@ -5,18 +5,19 @@
 2. [Viidad](./1-viidad.md)
 3. [Printf](./1-printing.md)
 4. [For loops](./1-for_loops.md)
-5. [Switch](./1-switch.md)
-6. [Massiivid ja Slices](./1-array.md)
-7. [Has table](./1-hash-table.md)
-8. [Maps](./1-maps.md)
-9. [Struct](./1-struct.md)
-10. [JSON](./1-json.md)
-11. [Failid](./1-files.md)
-12. [Funktsioonid](./2-func.md)
-13. [Classes](./2-classes.md)
-14. [Encapsulation](./2-encapsulation.md)
-15. [Interfaces](./2-interfaces.md)
-16. [Concurrency](./3-concurrency.md)
+5. [If](./1-if.md)
+6. [Switch](./1-switch.md)
+7. [Massiivid ja Slices](./1-array.md)
+8. [Has table](./1-hash-table.md)
+9. [Maps](./1-maps.md)
+10. [Struct](./1-struct.md)
+11. [JSON](./1-json.md)
+12. [Failid](./1-files.md)
+13. [Funktsioonid](./2-func.md)
+14. [Classes](./2-classes.md)
+15. [Encapsulation](./2-encapsulation.md)
+16. [Interfaces](./2-interfaces.md)
+17. [Concurrency](./3-concurrency.md)
 
 ## Koodinäited
 
@@ -32,6 +33,13 @@
 * [animal-final.go](src/1-animal-final/animal-final.go)
 * [race.go](src/2-race/race.go) Race condition, goroutine
 * [goroutine.go](src/2-goroutine/goroutine.go) sync.WaitGroup, goroutine
+* [dining.go](src/2-dining/dining.go)
+
+
+## Links
+
+* [Codecademy cheatsheets](https://www.codecademy.com/learn/learn-go/modules/learn-go-introduction/cheatsheet)
+
 
 ___
 
