@@ -193,14 +193,36 @@ func main() {
 
 ## Deferred function calls
 
-* Call can be deferred until the surrounding function completes.
-* Typically used for cleanup activities
+* We can delay a function call to the end of the current scope by using the defer keyword
+* Typically used for cleanup activities, logging.
 
 ```Go
 func main() {
   defer fmt.Printlm("Bye!")
 
   fmt.Println("Hello!")
+}
+// Hello!
+// Bye!
+```
+
+```Go
+func calculateTaxes(revenue, deductions, credits float64) float64 {
+  defer fmt.Println("Taxes Calculated!")
+  taxRate := .06143
+  fmt.Println("Calculating Taxes")
+ 
+  if deductions == 0 || credits == 0 {
+    return revenue * taxRate
+  }
+ 
+ 
+  taxValue := (revenue - (deductions * credits)) * taxRate
+  if taxValue >= 0 {
+    return taxValue
+  } else {
+    return 0
+  }
 }
 ```
 

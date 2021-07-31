@@ -18,6 +18,7 @@
 15. [Encapsulation](./2-encapsulation.md)
 16. [Interfaces](./2-interfaces.md)
 17. [Concurrency](./3-concurrency.md)
+18. [Random](./1-random.md)
 
 ## Koodinäited
 
