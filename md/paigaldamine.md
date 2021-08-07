@@ -4,19 +4,15 @@
 
 ### Ubuntu
 
-    sudo apt install golang
+`sudo apt install golang`
 
 Ja Visual Studio Code laiendus [GO](https://marketplace.visualstudio.com/items?itemName=golang.go).
 
-Paigaldatud Go versiooni nägemiseks:
-
-    go version
+Paigaldatud Go versiooni nägemiseks: `go version`
 
 ## Töökeskkond / Workspace
 
-Töökeskkonna vaikeasukoht:
-
-    /home/userName/go
+Töökeskkonna vaikeasukoht: `/home/userName/go`
 
 `GOPATH` -  
 
@@ -25,6 +21,8 @@ Töökeskkonnd on soovituslik, aga mitte kohustuslik, jagada kolmeks alamkataloo
 * `/src` - erinevate projektide lähtekood
 * `/pkg` - pakettid (teegid)
 * `/bin` - käivitus failid
+
+Import path `host/userororg/project/(dir)/package`
 
 ## Hello World
 
@@ -39,7 +37,7 @@ func main() {
 }
 ```
 
-![Go Hello World! program.](img/Ekraanipilt%202021-07-24%2017-25-36.png)
+![Go Hello World! program.](../img/Ekraanipilt%202021-07-24%2017-25-36.png)
 
 ### Print/Println/Printf
 
@@ -121,9 +119,7 @@ const earthsGravity = 9.80665
 * `go run` - kompileerib ja käivitab programi
 * `go test` - jooksutab teste: failid, mis lõppevad `_test.go`
 
-Näide:
-
-    go doc fmt.Println
+Näide: `go doc fmt.Println`
 
 ## Packages
 
@@ -139,7 +135,7 @@ import(
 
 ## Numeric types
 
-```
+```Go
 uint8       the set of all unsigned  8-bit integers (0 to 255)
 uint16      the set of all unsigned 16-bit integers (0 to 65535)
 uint32      the set of all unsigned 32-bit integers (0 to 4294967295)
@@ -188,6 +184,7 @@ func main() {
     // Prints: I wish I had a puppy.
 }
 ```
+
  ___
 
 Copyright Tauno Erik 2021 [taunoerik.art](https://taunoerik.art/)
