@@ -14,6 +14,14 @@ func main() {
   treasure := "Midagi-kedagi."
   // Prindib addressi
   fmt.Println(&treasure)
+
+  a := 1
+  pa := &a
+  fmt.Println(*pa)
+
+  var b int = 1
+  var pb *int = &b
+  fmt.Println(*pb)
 }
 ```
 

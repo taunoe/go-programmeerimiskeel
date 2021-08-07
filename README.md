@@ -1,24 +1,24 @@
 # go programmeerimiskeel
 
-0. [Paigaldamine](./0-paigaldamine.md)
-1. [Muutujad](./1-muutujad.md)
-2. [Viidad](./1-viidad.md)
-3. [Printf](./1-printing.md)
-4. [For loops](./1-for_loops.md)
-5. [If](./1-if.md)
-6. [Switch](./1-switch.md)
-7. [Massiivid ja Slices](./1-array.md)
-8. [Has table](./1-hash-table.md)
-9. [Maps](./1-maps.md)
-10. [Struct](./1-struct.md)
-11. [JSON](./1-json.md)
-12. [Failid](./1-files.md)
-13. [Funktsioonid](./2-func.md)
-14. [Classes](./2-classes.md)
-15. [Encapsulation](./2-encapsulation.md)
-16. [Interfaces](./2-interfaces.md)
-17. [Concurrency](./3-concurrency.md)
-18. [Random](./1-random.md)
+0. [Paigaldamine](./paigaldamine.md)
+1. [Muutujad](./muutujad.md)
+2. [Viidad](./viidad.md)
+3. [Printf](./printing.md)
+4. [For loops](./for_loops.md)
+5. [If](./if.md)
+6. [Switch](./switch.md)
+7. [Massiivid ja Slices](./array.md)
+8. [Has table](./hash-table.md)
+9. [Maps](./maps.md)
+10. [Struct/Type](./struct.md)
+11. [JSON](./json.md)
+12. [Failid](./files.md)
+13. [Funktsioonid](./func.md)
+14. [Classes](./classes.md)
+15. [Encapsulation](./encapsulation.md)
+16. [Interfaces](./interfaces.md)
+17. [Concurrency](./concurrency.md)
+18. [Random](./random.md)
 
 ## Koodinäited
 
@@ -36,11 +36,9 @@
 * [goroutine.go](src/2-goroutine/goroutine.go) sync.WaitGroup, goroutine
 * [dining.go](src/2-dining/dining.go)
 
-
 ## Links
 
 * [Codecademy cheatsheets](https://www.codecademy.com/learn/learn-go/modules/learn-go-introduction/cheatsheet)
-
 
 ___
 

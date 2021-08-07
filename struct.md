@@ -1,8 +1,7 @@
 # Struct
 
-Näide: Persoon Struct
+Näide: Person Struct
 Kolm väärtust: nimi, address, telefon
-
 
 ```Go
 type Person struct {
@@ -22,7 +21,20 @@ p2 := new(Person)
 
 // Initializing: struct literal
 p3 := Person{name:"joe", addr:"a st.", phone:"123"}
+```
 
+```Go
+ type fahrenheit int
+ type celsius int
+
+ var f fahrenheit = 32
+ var c celsius = 0
+
+ fmt.Prinln(f, c)
+
+ c = celsius((f-32)*5/9)
+
+ fmt.Prinln(c)
 ```
 
 ___
