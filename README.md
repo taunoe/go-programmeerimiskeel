@@ -36,6 +36,8 @@
 * [goroutine.go](src/goroutine/goroutine.go) sync.WaitGroup, goroutine
 * [dining.go](src/dining/dining.go)
 * [Fibonacci Series](src/fibonacci/) Three Fibpnacci functions. Tests.
+* [Http response parsing](src/http-responce-parsing/) Read api:json, web page
+* [Read and write Json file](src/json/) ioutil
 
 ## Links
 
