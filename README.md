@@ -35,6 +35,7 @@
 * [race.go](src/race/race.go) Race condition, goroutine
 * [goroutine.go](src/goroutine/goroutine.go) sync.WaitGroup, goroutine
 * [dining.go](src/dining/dining.go)
+* [Fibonacci Series](src/fibonacci/) Three Fibpnacci functions. Tests.
 
 ## Links
 
