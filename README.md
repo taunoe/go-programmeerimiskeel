@@ -38,9 +38,11 @@
 * [Fibonacci Series](src/fibonacci/) Three Fibpnacci functions. Tests.
 * [Http response parsing](src/http-responce-parsing/) Read api:json, web page
 * [Read and write Json file](src/json/) ioutil
+* [Simulate song selection on playlist](src/song-selection/)
 
 ## Links
 
+* [go.dev/learn/](https://go.dev/learn/)
 * [Codecademy cheatsheets](https://www.codecademy.com/learn/learn-go/modules/learn-go-introduction/cheatsheet)
 
 ___
